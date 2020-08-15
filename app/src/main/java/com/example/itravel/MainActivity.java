@@ -1,4 +1,4 @@
-package com.example.itravel;
+/*package com.example.itravel;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -87,4 +87,4 @@ public class MainActivity<OnSuccessListen> extends AppCompatActivity {
         finish();
 
     }
-}
+}*/

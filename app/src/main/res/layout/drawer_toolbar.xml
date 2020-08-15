@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="#003700B3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="145dp"
+                android:layout_height="106dp"
+                app:srcCompat="@drawable/mad_logo"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="-8dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ic_baseline_notifications_24"
+            android:tint="#FFFFFF"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="589dp"
+            tools:layout_editor_absoluteY="24dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

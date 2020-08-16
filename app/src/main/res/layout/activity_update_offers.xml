@@ -78,12 +78,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.615" />
 
-    <TextView
+    <EditText
         android:id="@+id/resUptxt"
-        android:layout_width="173dp"
-        android:layout_height="30dp"
-        android:hint="Name restaurent"
-        android:text="@string/ResUpTxt"
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:hint="Name Restaurent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.861"
@@ -91,25 +90,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.406" />
 
-    <TextView
+    <EditText
         android:id="@+id/nameUpTxt"
-        android:layout_width="173dp"
-        android:layout_height="25dp"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
         android:hint="Name of the offer"
-        android:text="@string/NameOffTxt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintVertical_bias="0.539" />
 
-    <TextView
+    <EditText
         android:id="@+id/descUpTxt"
         android:layout_width="176dp"
         android:layout_height="140dp"
         android:hint="Description"
-        android:text="@string/deUpTxt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.872"

@@ -79,42 +79,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.825" />
 
-    <TextView
+    <EditText
         android:id="@+id/nameofTxt"
-        android:layout_width="160dp"
-        android:layout_height="26dp"
+        android:layout_width="162dp"
+        android:layout_height="39dp"
         android:hint="Name of the offer"
-        android:text="@string/nameof"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintVertical_bias="0.432" />
 
-    <TextView
+    <EditText
         android:id="@+id/nameTxt"
-        android:layout_width="160dp"
-        android:layout_height="30dp"
+        android:layout_width="158dp"
+        android:layout_height="40dp"
         android:hint="Name Restaurent"
-        android:text="@string/Nameres"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
+        app:layout_constraintVertical_bias="0.319" />
 
-    <TextView
+    <EditText
         android:id="@+id/desText"
         android:layout_width="161dp"
         android:layout_height="123dp"
         android:hint="Description"
-        android:text="@string/desText"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.626" />

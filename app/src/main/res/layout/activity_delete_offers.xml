@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.683" />
 
     <Spinner
-        android:id="@+id/catDroupAdd"
+        android:id="@+id/catDroupDel"
         android:layout_width="142dp"
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,13 +104,13 @@
 
     <TextView
         android:id="@+id/nameoffDel"
-        android:layout_width="146dp"
+        android:layout_width="143dp"
         android:layout_height="28dp"
         android:hint="Name of the offer"
         android:text="@string/nameoffDel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.588" />

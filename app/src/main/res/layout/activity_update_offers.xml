@@ -134,7 +134,7 @@
         app:layout_constraintVertical_bias="0.904" />
 
     <Spinner
-        android:id="@+id/catDroupUp"
+        android:id="@+id/catDroupTxt"
         android:layout_width="171dp"
         android:layout_height="34dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -81,43 +81,43 @@
 
     <TextView
         android:id="@+id/nameof"
-        android:layout_width="156dp"
-        android:layout_height="29dp"
+        android:layout_width="160dp"
+        android:layout_height="26dp"
         android:hint="Name of the offer"
         android:text="@string/nameof"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447" />
+        app:layout_constraintVertical_bias="0.445" />
 
     <TextView
         android:id="@+id/Nameres"
-        android:layout_width="151dp"
+        android:layout_width="160dp"
         android:layout_height="30dp"
         android:hint="Name Restaurent"
         android:text="@string/Nameres"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.315" />
 
     <TextView
         android:id="@+id/desText"
-        android:layout_width="153dp"
-        android:layout_height="122dp"
+        android:layout_width="161dp"
+        android:layout_height="123dp"
         android:hint="Description"
         android:text="@string/desText"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.625" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <TextView
         android:id="@+id/textView13"
@@ -136,12 +136,12 @@
         app:layout_constraintVertical_bias="0.108" />
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="148dp"
+        android:id="@+id/spinner1"
+        android:layout_width="160dp"
         android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.236" />

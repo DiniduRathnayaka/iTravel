@@ -20,7 +20,7 @@ public class AddOffers extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_offers);
 
-        addbtn=(Button) findViewById(R.id.addOffer);
+        addbtn=(Button) findViewById(R.id.addOffBtn);
         addbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.179" />
 
     <TextView
-        android:id="@+id/catdel"
+        android:id="@+id/catdel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/catdel"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.384" />
 
     <TextView
-        android:id="@+id/resDel"
+        android:id="@+id/resDel1"
         android:layout_width="119dp"
         android:layout_height="51dp"
         android:text="@string/resDel"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.485" />
 
     <TextView
-        android:id="@+id/offNamDel"
+        android:id="@+id/offNamDel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/offNamDel"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.591" />
 
     <TextView
-        android:id="@+id/decsDel"
+        android:id="@+id/decsDel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/decsDel"
@@ -90,7 +90,7 @@
         app:layout_constraintVertical_bias="0.389" />
 
     <TextView
-        android:id="@+id/NameReDel"
+        android:id="@+id/nameReText"
         android:layout_width="144dp"
         android:layout_height="26dp"
         android:hint="Name Restaurent"
@@ -103,7 +103,7 @@
         app:layout_constraintVertical_bias="0.468" />
 
     <TextView
-        android:id="@+id/nameoffDel"
+        android:id="@+id/nameOffText"
         android:layout_width="143dp"
         android:layout_height="28dp"
         android:hint="Name of the offer"
@@ -116,7 +116,7 @@
         app:layout_constraintVertical_bias="0.588" />
 
     <TextView
-        android:id="@+id/desDelTxt"
+        android:id="@+id/decDText"
         android:layout_width="145dp"
         android:layout_height="119dp"
         android:hint="Description"
@@ -129,7 +129,7 @@
         app:layout_constraintVertical_bias="0.789" />
 
     <Button
-        android:id="@+id/DeleteOffer1"
+        android:id="@+id/deleteOff"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"

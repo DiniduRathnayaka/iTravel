@@ -7,7 +7,7 @@
     tools:context=".RestaurentOffers.AddOffers">
 
     <TextView
-        android:id="@+id/cat"
+        android:id="@+id/cat1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cat"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.233" />
 
     <TextView
-        android:id="@+id/RestName"
+        android:id="@+id/RestName1"
         android:layout_width="133dp"
         android:layout_height="63dp"
         android:text="@string/RestName"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.33" />
 
     <TextView
-        android:id="@+id/offName"
+        android:id="@+id/offName1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/offName"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.444" />
 
     <TextView
-        android:id="@+id/desc"
+        android:id="@+id/desc1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/desc"
@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.538" />
 
     <Button
-        android:id="@+id/addOffer"
+        android:id="@+id/addOffBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.825" />
 
     <TextView
-        android:id="@+id/nameof"
+        android:id="@+id/nameofTxt"
         android:layout_width="160dp"
         android:layout_height="26dp"
         android:hint="Name of the offer"
@@ -93,7 +93,7 @@
         app:layout_constraintVertical_bias="0.445" />
 
     <TextView
-        android:id="@+id/Nameres"
+        android:id="@+id/nameTxt"
         android:layout_width="160dp"
         android:layout_height="30dp"
         android:hint="Name Restaurent"

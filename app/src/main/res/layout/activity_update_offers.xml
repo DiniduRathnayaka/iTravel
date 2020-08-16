@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.126" />
 
     <TextView
-        android:id="@+id/catup"
+        android:id="@+id/catup1"
         android:layout_width="89dp"
         android:layout_height="35dp"
         android:text="@string/catup"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.326" />
 
     <TextView
-        android:id="@+id/ResUp"
+        android:id="@+id/ResUp1"
         android:layout_width="107dp"
         android:layout_height="58dp"
         android:text="@string/ResUp"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.423" />
 
     <TextView
-        android:id="@+id/offNameUp"
+        android:id="@+id/offNameUp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/offNameUp"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.528" />
 
     <TextView
-        android:id="@+id/desUp"
+        android:id="@+id/desUp1"
         android:layout_width="107dp"
         android:layout_height="40dp"
         android:text="@string/desUp"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.615" />
 
     <TextView
-        android:id="@+id/ResUpTxt"
+        android:id="@+id/resUptxt"
         android:layout_width="173dp"
         android:layout_height="30dp"
         android:hint="Name restaurent"
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.406" />
 
     <TextView
-        android:id="@+id/NameOffTxt"
+        android:id="@+id/nameUpTxt"
         android:layout_width="173dp"
         android:layout_height="25dp"
         android:hint="Name of the offer"
@@ -105,7 +105,7 @@
         app:layout_constraintVertical_bias="0.528" />
 
     <TextView
-        android:id="@+id/deUpTxt"
+        android:id="@+id/descUpTxt"
         android:layout_width="176dp"
         android:layout_height="140dp"
         android:hint="Description"
@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.719" />
 
     <Button
-        android:id="@+id/UpdateOffer"
+        android:id="@+id/updateof"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"

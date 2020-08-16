@@ -16,10 +16,10 @@
     <!--        </intent-filter>  -->
         </activity>
         <activity android:name=".RestaurentOffers.DeleteOffers">
-            <intent-filter>
+        <!--    <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>>
+            </intent-filter>>   -->
         </activity>
         <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar">
 <!--            <intent-filter>-->
@@ -33,7 +33,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter> -->
         </activity>
-        <activity android:name=".RestaurentOffers.Hotels"></activity>
+        <activity android:name=".RestaurentOffers.Hotels">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!--<activity android:name=".Login" />
         <activity android:name=".Register" />
         <activity android:name=".MainActivity">

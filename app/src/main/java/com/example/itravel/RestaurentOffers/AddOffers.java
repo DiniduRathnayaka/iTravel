@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 public class AddOffers extends AppCompatActivity {
 
+    private static final android.R.attr R = ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

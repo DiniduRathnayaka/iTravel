@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">iTravel</string>
+    <string name="addoff">ADD OFFER</string>
+    <string name="cat">Category</string>
+    <string name="spinner">Category</string>
+    <string name="RestName">Restaurent Name</string>
+    <string name="Nameres">Name Restaurent</string>
+    <string name="offName">Offer Name</string>
+    <string name="nameof">Name of the offer</string>
+    <string name="desc">Description</string>
+    <string name="desText">Description</string>
+    <string name="addOffer">Add Offer</string>
+    <string name="DeleteOffer">DELETE OFFER</string>
+    <string name="catdel">Category</string>
+    <string name="resDel">Resturent Name</string>
+    <string name="offNamDel">Offer Name</string>
+    <string name="decsDel">Description</string>
+    <string name="catDroupAdd">Category</string>
+    <string name="NameReDel">Name restaurent</string>
+    <string name="nameoffDel">Name of the offer</string>
+    <string name="desDelTxt">Description</string>
+    <string name="DeleteOffer1">Delete Offer</string>
+    <string name="update">UPDATE OFFER</string>
+    <string name="catup">Category</string>
+    <string name="ResUp">Resturent Name</string>
+    <string name="offNameUp">Offer Name</string>
+    <string name="desUp">Description</string>
+    <string name="catDroupUp">Category</string>
+    <string name="ResUpTxt">Name restaurent</string>
+    <string name="NameOffTxt">Name of the offer</string>
+    <string name="deUpTxt">Description</string>
+    <string name="UpdateOffer">Update Offer</string>
+
 </resources>

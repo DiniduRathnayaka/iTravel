@@ -24,7 +24,7 @@
     <string name="offNamDel">Offer Name</string>
     <string name="decsDel">Description</string>
     <string-array name="catDroupAdd">Category
-     <item>Premium</item>
+        <item>Premium</item>
         <item>Gold</item>
         <item>Basic </item>
     </string-array>
@@ -40,7 +40,7 @@
     <string name="offNameUp">Offer Name</string>
     <string name="desUp">Description</string>
     <string-array name="catDroupUp">Category
-     <item>Premium</item>
+        <item>Premium</item>
         <item>Gold</item>
         <item>Basic </item>
     </string-array>
@@ -54,8 +54,34 @@
     <string name="h2">Hotel details</string>
     <string name="h3">Hotel details</string>
     <string name="h4">Hotel details</string>
-    
+
     <!--Dinindu End -->
 
 
+    <!--Amasha Start -->
+    <string name="imageUploadBtn">Upload an image</string>
+    <string name="newImage">Insert a new image</string>
+    <string name="locationName">Location Name</string>
+    <string name="fillLocationName">Name of the location</string>
+    <string name="country">Country</string>
+    <string name="fillCountry">Name of the country</string>
+    <string name="description">Description</string>
+    <string name="fillDescription">Description</string>
+    <string name="locationLink">Location Link</string>
+    <string name="fillLocationLink">Link of the location</string>
+    <string name="MsgAddLocation">Add a Location</string>
+    <string name="addLocationBtn">Add Location</string>
+    <string name="MsgUpdateLocation">Update a Location</string>
+    <string name="updateLocationBtn">Update Location</string>
+    <string name="MsgDeleteLocation">Delete a Location</string>
+    <string name="deleteLocationBtn">Delete Location</string>
+    <string name="hotelName">Hotel Name</string>
+    <string name="fillHotelName">Name of the hotel</string>
+    <string name="MsgAddHotel">Add a Hotel</string>
+    <string name="addHotelBtn">Add Hotel</string>
+    <string name="MsgUpdateHotel">Update a Hotel</string>
+    <string name="updateHotelBtn">Update Hotel</string>
+    <string name="MsgDeleteHotel">Delete a Hotel</string>
+    <string name="deleteHotelBtn">Delete Hotel</string>
+    <!--Amasha End -->
 </resources>

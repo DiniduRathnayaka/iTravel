@@ -9,46 +9,55 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Content.hotel_view"></activity>
+        <activity android:name=".Content.location_view" />
+        <activity android:name=".Content.hotel_delete" />
+        <activity android:name=".Content.hotel_update" />
+        <activity android:name=".Content.hotel_add" />
+        <activity android:name=".Content.location_delete" />
+        <activity android:name=".Content.location_update" />
+        <activity android:name=".Content.location_add" />
         <activity android:name=".RestaurentOffers.AddOffers">
-     <!--       <intent-filter>  -->
-       <!--         <action android:name="android.intent.action.MAIN" />   -->
-       <!--         <category android:name="android.intent.category.LAUNCHER" />  -->
-    <!--        </intent-filter>  -->
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name=".RestaurentOffers.DeleteOffers">
-        <!--    <intent-filter>
+
+            <!--
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>>   -->
+            </intent-filter>>
+            -->
         </activity>
-        <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+        <activity
+            android:name="com.example.Home.dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name=".RestaurentOffers.UpdateOffers">
-        <!--    <intent-filter>
+
+            <!--
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
+            </intent-filter>
+            -->
         </activity>
         <activity android:name=".RestaurentOffers.Hotels">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".Login" />
-        <activity android:name=".Register" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>-->
-
     </application>
 
 </manifest>

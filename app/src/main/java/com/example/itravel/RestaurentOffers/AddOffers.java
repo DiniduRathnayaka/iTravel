@@ -4,9 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.itravel.R;
+
 public class AddOffers extends AppCompatActivity {
 
-    private static final android.R.attr R = ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

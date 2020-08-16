@@ -30,5 +30,11 @@
     <string name="NameOffTxt">Name of the offer</string>
     <string name="deUpTxt">Description</string>
     <string name="UpdateOffer">Update Offer</string>
+    <string name="Hotel">HOTELS</string>
+    <string name="h1">Hotel details</string>
+    <string name="h2">Hotel details</string>
+    <string name="h3">Hotel details</string>
+    <string name="h4">Hotel details</string>
+
 
 </resources>

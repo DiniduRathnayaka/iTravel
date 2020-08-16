@@ -12,13 +12,14 @@
         android:layout_height="66dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:background="#F2FF80"
         android:text="RESET PASSWORD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.855" />
 
     <Button
         android:id="@+id/button"
@@ -26,6 +27,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:background="#19BCD2"
         android:onClick="logout"
         android:text="LogOut"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Profile"
+        android:textColor="#D50000"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,13 +115,15 @@
         android:layout_height="66dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:background="#FF36B63B"
         android:text="CHANGE PROFILE"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772" />
+        app:layout_constraintVertical_bias="0.736" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

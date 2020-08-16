@@ -24,7 +24,7 @@
     <string name="offNamDel">Offer Name</string>
     <string name="decsDel">Description</string>
     <string-array name="catDroupAdd">Category
-     <item>Premium</item>
+        <item>Premium</item>
         <item>Gold</item>
         <item>Basic </item>
     </string-array>
@@ -40,7 +40,7 @@
     <string name="offNameUp">Offer Name</string>
     <string name="desUp">Description</string>
     <string-array name="catDroupUp">Category
-     <item>Premium</item>
+        <item>Premium</item>
         <item>Gold</item>
         <item>Basic </item>
     </string-array>
@@ -54,7 +54,13 @@
     <string name="h2">Hotel details</string>
     <string name="h3">Hotel details</string>
     <string name="h4">Hotel details</string>
-    
+    <string name="TraHead">Transfers</string>
+    <string name="date">Date</string>
+    <string name="Morede">More Details</string>
+    <string name="dAte">Date</string>
+    <string name="DatE">Date</string>
+    <string name="MorDet">More Details</string>
+
     <!--Dinindu End -->
 
 

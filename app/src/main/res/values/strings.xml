@@ -51,6 +51,8 @@
     <string name="h2">Hotel details</string>
     <string name="h3">Hotel details</string>
     <string name="h4">Hotel details</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
 
 
 </resources>

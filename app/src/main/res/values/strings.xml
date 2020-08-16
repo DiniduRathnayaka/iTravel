@@ -1,6 +1,8 @@
 <resources>
     <!-- Dinidu Start-->
     <string name="app_name">iTravel</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
     <string name="addoff">ADD OFFER</string>
     <string name="cat">Category</string>
     <string-array name="spinner">

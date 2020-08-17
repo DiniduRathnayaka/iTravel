@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.profile_upgrade.PaymentDetailsUpdate"></activity>
+        <activity android:name="com.example.Feedback.MyFeedbacks"></activity>
+        <activity android:name="com.example.Feedback.UpdateFeedback" />
+        <activity android:name="com.example.Feedback.DeleteFeedback" />
+        <activity android:name="com.example.Feedback.AddFeedback" />
+        <activity android:name="com.example.profile_upgrade.PaymentDetailsUpdate" />
         <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" />
         <activity android:name=".RestaurentOffers.AddOffers">
 

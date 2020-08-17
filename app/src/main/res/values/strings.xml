@@ -62,6 +62,18 @@
     <string name="MorDet">More Details</string>
 
     <!--Dinindu End -->
+    <string name="app_name">Locations</string>
+    <string name="NL">Name of the Location</string>
+    <string name="Des">Description</string>
+    <string name="VF">View Feedback</string>
+    <string name="AF">Add a Feedback</string>
+    <string name="RL">Rate the Location!</string>
+    <string name="Msg">Message</string>
+    <string name="UYF">Upload Your Favourite!</string>
+    <string name="Sub">SUBMIT</string>
+    <string name="MF">My Feedbacks</string>
+    <string name="UF">Update Feedback</string>
+    <string name="UFbtn">Update Feedback!</string>
 
 
 </resources>

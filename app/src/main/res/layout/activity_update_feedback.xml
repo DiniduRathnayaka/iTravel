@@ -74,7 +74,8 @@
             android:layout_height="48dp"
             android:hint="Your Message"
             android:inputType="textMultiLine"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

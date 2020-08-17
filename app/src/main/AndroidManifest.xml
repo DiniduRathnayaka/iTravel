@@ -5,11 +5,11 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Content.hotel_view"></activity>
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main"></activity>
+        <activity android:name=".Content.hotel_view" />
         <activity android:name=".Content.location_view" />
         <activity android:name=".Content.hotel_delete" />
         <activity android:name=".Content.hotel_update" />

@@ -1,16 +1,16 @@
-package com.example.Home;
+package com.example.profile_upgrade;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import android.os.Bundle;
-
 import com.example.itravel.R;
 import com.google.android.material.navigation.NavigationView;
 
-public class favourites extends AppCompatActivity {
+public class profile_upgrade_main_pre_pay_method extends AppCompatActivity {
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
@@ -19,7 +19,7 @@ public class favourites extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_favourites);
+        setContentView(R.layout.activity_profile_upgrade_main_pre);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

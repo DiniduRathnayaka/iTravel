@@ -12,7 +12,10 @@
     <string name="favo_title">Favourites</string>
     <string name="favo_subtopic1">Hotels</string>
     <string name="favo_subtopic2">Locations</string>
+    <string name="profile_title">Profile Upgrade</string>
+    <string name="upgrde_btn">Upgrade</string>
     <!-- Tiran - End -->
+
     <!-- Dinidu Start-->
     <string name="app_name">iTravel</string>
     <string name="addoff">ADD OFFER</string>

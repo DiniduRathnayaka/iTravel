@@ -1,4 +1,4 @@
-package com.example.Home;
+package com.example.profile_upgrade;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +9,7 @@ import android.os.Bundle;
 
 import com.example.itravel.R;
 import com.google.android.material.navigation.NavigationView;
-
-public class favourites extends AppCompatActivity {
+public class profile_upgrade_main extends AppCompatActivity {
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
@@ -19,7 +18,7 @@ public class favourites extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_favourites);
+        setContentView(R.layout.activity_profile_upgrade_main);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

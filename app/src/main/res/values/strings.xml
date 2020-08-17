@@ -62,7 +62,7 @@
     <string name="MorDet">More Details</string>
 
     <!--Dinindu End -->
-    <string name="app_name">Locations</string>
+    <string name="app_name_lo">Locations</string>
     <string name="NL">Name of the Location</string>
     <string name="Des">Description</string>
     <string name="VF">View Feedback</string>

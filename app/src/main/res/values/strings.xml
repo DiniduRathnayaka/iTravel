@@ -83,5 +83,15 @@
     <string name="updateHotelBtn">Update Hotel</string>
     <string name="MsgDeleteHotel">Delete a Hotel</string>
     <string name="deleteHotelBtn">Delete Hotel</string>
+    <string name="msgAddedLocations">Added Locations</string>
+    <string name="locations">Locations</string>
+    <string name="msgAddedHotels">Added Hotels</string>
+    <string name="Hotels">Hotels</string>
+    <string name="loc1">Sigiriya</string>
+    <string name="loc2">Kithulgala</string>
+    <string name="loc3">Arugambay</string>
+    <string name="hot1">Cafe the Seoul</string>
+    <string name="hot2">Cafe Nori</string>
+    <string name="hot3">Pizza Hut</string>
     <!--Amasha End -->
 </resources>

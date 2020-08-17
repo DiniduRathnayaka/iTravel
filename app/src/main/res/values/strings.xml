@@ -1,8 +1,22 @@
 <resources>
-    <!-- Dinidu Start-->
-    <string name="app_name">iTravel</string>
+    <!-- Tiran - Start -->
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="explorer_heading">Explore</string>
+    <string name="explorer_tab_1">Discover</string>
+    <string name="explorer_tab_2">Offers</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Discover</string>
+    <string name="tab_text_2">Offers</string>
+    <string name="title_activity_explorer">Explorer</string>
+    <string name="favo_title">Favourites</string>
+    <string name="favo_subtopic1">Hotels</string>
+    <string name="favo_subtopic2">Locations</string>
+    <string name="profile_title">Profile Upgrade</string>
+    <string name="upgrde_btn">Upgrade</string>
+    <!-- Tiran - End -->
+    <!-- Dinidu Start-->
+    <string name="app_name">iTravel</string>
     <string name="addoff">ADD OFFER</string>
     <string name="cat">Category</string>
     <string-array name="spinner">
@@ -60,8 +74,6 @@
     <string name="dAte">Date</string>
     <string name="DatE">Date</string>
     <string name="MorDet">More Details</string>
-
-    <!--Dinindu End -->
     <string name="app_name_lo">Locations</string>
     <string name="NL">Name of the Location</string>
     <string name="Des">Description</string>
@@ -75,5 +87,33 @@
     <string name="UF">Update Feedback</string>
     <string name="UFbtn">Update Feedback!</string>
 
+    <!--Dinindu End -->
 
+
+    <!--Amasha Start -->
+    <string name="imageUploadBtn">Upload an image</string>
+    <string name="newImage">Insert a new image</string>
+    <string name="locationName">Location Name</string>
+    <string name="fillLocationName">Name of the location</string>
+    <string name="country">Country</string>
+    <string name="fillCountry">Name of the country</string>
+    <string name="description">Description</string>
+    <string name="fillDescription">Description</string>
+    <string name="locationLink">Location Link</string>
+    <string name="fillLocationLink">Link of the location</string>
+    <string name="MsgAddLocation">Add a Location</string>
+    <string name="addLocationBtn">Add Location</string>
+    <string name="MsgUpdateLocation">Update a Location</string>
+    <string name="updateLocationBtn">Update Location</string>
+    <string name="MsgDeleteLocation">Delete a Location</string>
+    <string name="deleteLocationBtn">Delete Location</string>
+    <string name="hotelName">Hotel Name</string>
+    <string name="fillHotelName">Name of the hotel</string>
+    <string name="MsgAddHotel">Add a Hotel</string>
+    <string name="addHotelBtn">Add Hotel</string>
+    <string name="MsgUpdateHotel">Update a Hotel</string>
+    <string name="updateHotelBtn">Update Hotel</string>
+    <string name="MsgDeleteHotel">Delete a Hotel</string>
+    <string name="deleteHotelBtn">Delete Hotel</string>
+    <!--Amasha End -->
 </resources>

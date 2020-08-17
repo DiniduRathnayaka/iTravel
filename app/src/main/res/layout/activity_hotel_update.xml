@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".Content.hotel_update"
+    android:id="@+id/drawer_layout"
     android:background="@drawable/background_dashboard"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".Content.hotel_update">
 
     <EditText
@@ -17,23 +24,24 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.475" />
 
     <ImageView
         android:id="@+id/imageHotelAdd2"
-        android:layout_width="141dp"
-        android:layout_height="119dp"
+        android:layout_width="94dp"
+        android:layout_height="84dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        app:srcCompat="@drawable/ic_baseline_local_cafe_24" />
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/ic_baseline_local_cafe_24"
+        tools:ignore="VectorDrawableCompat" />
 
     <TextView
         android:id="@+id/updateHotel"
@@ -45,9 +53,10 @@
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.184" />
 
     <Button
         android:id="@+id/imageUploadUpdate4"
@@ -56,10 +65,10 @@
         android:text="@string/imageUploadBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintHorizontal_bias="0.707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.156"
+        app:layout_constraintVertical_bias="0.325"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -72,24 +81,25 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.473" />
 
     <EditText
         android:id="@+id/countryUpdateH"
-        android:layout_width="138dp"
-        android:layout_height="49dp"
+        android:layout_width="129dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/country"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
 
     <EditText
         android:id="@+id/fillCountryUpdateH"
@@ -101,14 +111,15 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
 
     <EditText
         android:id="@+id/fillDescriptionUpdateH"
-        android:layout_width="208dp"
-        android:layout_height="75dp"
+        android:layout_width="193dp"
+        android:layout_height="54dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
@@ -116,30 +127,30 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649" />
+        app:layout_constraintVertical_bias="0.705" />
 
     <EditText
         android:id="@+id/descriptionUpdateH"
-        android:layout_width="138dp"
-        android:layout_height="49dp"
+        android:layout_width="128dp"
+        android:layout_height="39dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/description"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+        app:layout_constraintVertical_bias="0.687" />
 
     <EditText
         android:id="@+id/locationLinkUpdateH"
-        android:layout_width="138dp"
-        android:layout_height="49dp"
+        android:layout_width="121dp"
+        android:layout_height="35dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/locationLink"
@@ -153,8 +164,8 @@
 
     <EditText
         android:id="@+id/fillLocationLinkUpdateH"
-        android:layout_width="215dp"
-        android:layout_height="49dp"
+        android:layout_width="213dp"
+        android:layout_height="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/fillLocationLink"
@@ -253,4 +264,19 @@
         app:layout_constraintVertical_bias="0.968"
         app:srcCompat="@drawable/ic_baseline_account_circle_24"
         tools:ignore="MissingConstraints,VectorDrawableCompat" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        layout="@layout/drawer_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+        <include
+            layout="@layout/content_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="-2dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

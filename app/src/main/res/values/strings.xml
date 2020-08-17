@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">iTravel</string>
+    <!-- Tiran - Start -->
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="explorer_heading">Explore</string>
+    <string name="explorer_tab_1">Discover</string>
+    <string name="explorer_tab_2">Offers</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Discover</string>
+    <string name="tab_text_2">Offers</string>
+    <string name="title_activity_explorer">Explorer</string>
+    <string name="favo_title">Favourites</string>
+    <string name="favo_subtopic1">Hotels</string>
+    <string name="favo_subtopic2">Locations</string>
+    <!-- Tiran - End -->
 </resources>

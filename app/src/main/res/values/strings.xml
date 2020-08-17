@@ -1,17 +1,87 @@
 <resources>
+    <!-- Dinidu Start-->
     <string name="app_name">iTravel</string>
-    <!-- Tiran - Start -->
     <string name="open">open</string>
     <string name="close">close</string>
-    <string name="explorer_heading">Explore</string>
-    <string name="explorer_tab_1">Discover</string>
-    <string name="explorer_tab_2">Offers</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="tab_text_1">Discover</string>
-    <string name="tab_text_2">Offers</string>
-    <string name="title_activity_explorer">Explorer</string>
-    <string name="favo_title">Favourites</string>
-    <string name="favo_subtopic1">Hotels</string>
-    <string name="favo_subtopic2">Locations</string>
-    <!-- Tiran - End -->
+    <string name="addoff">ADD OFFER</string>
+    <string name="cat">Category</string>
+    <string-array name="spinner">
+        <item>Premium</item>
+        <item>Gold</item>
+        <item>Basic </item>
+    </string-array>
+
+    <string name="RestName">Restaurent Name</string>
+    <string name="Nameres">Name Restaurent</string>
+    <string name="offName">Offer Name</string>
+    <string name="nameof">Name of the offer</string>
+    <string name="desc">Description</string>
+    <string name="desText">Description</string>
+    <string name="addOffer">Add Offer</string>
+    <string name="DeleteOffer">DELETE OFFER</string>
+    <string name="catdel">Category</string>
+    <string name="resDel">Resturent Name</string>
+    <string name="offNamDel">Offer Name</string>
+    <string name="decsDel">Description</string>
+    <string-array name="catDroupAdd">Category
+        <item>Premium</item>
+        <item>Gold</item>
+        <item>Basic </item>
+    </string-array>
+
+
+    <string name="NameReDel">Name restaurent</string>
+    <string name="nameoffDel">Name of the offer</string>
+    <string name="desDelTxt">Description</string>
+    <string name="DeleteOffer1">Delete Offer</string>
+    <string name="update">UPDATE OFFER</string>
+    <string name="catup">Category</string>
+    <string name="ResUp">Resturent Name</string>
+    <string name="offNameUp">Offer Name</string>
+    <string name="desUp">Description</string>
+    <string-array name="catDroupUp">Category
+        <item>Premium</item>
+        <item>Gold</item>
+        <item>Basic </item>
+    </string-array>
+
+    <string name="ResUpTxt">Name restaurent</string>
+    <string name="NameOffTxt">Name of the offer</string>
+    <string name="deUpTxt">Description</string>
+    <string name="UpdateOffer">Update Offer</string>
+    <string name="Hotel">HOTELS LIST</string>
+    <string name="h1">Hotel details</string>
+    <string name="h2">Hotel details</string>
+    <string name="h3">Hotel details</string>
+    <string name="h4">Hotel details</string>
+
+    <!--Dinindu End -->
+
+
+    <!--Amasha Start -->
+    <string name="imageUploadBtn">Upload an image</string>
+    <string name="newImage">Insert a new image</string>
+    <string name="locationName">Location Name</string>
+    <string name="fillLocationName">Name of the location</string>
+    <string name="country">Country</string>
+    <string name="fillCountry">Name of the country</string>
+    <string name="description">Description</string>
+    <string name="fillDescription">Description</string>
+    <string name="locationLink">Location Link</string>
+    <string name="fillLocationLink">Link of the location</string>
+    <string name="MsgAddLocation">Add a Location</string>
+    <string name="addLocationBtn">Add Location</string>
+    <string name="MsgUpdateLocation">Update a Location</string>
+    <string name="updateLocationBtn">Update Location</string>
+    <string name="MsgDeleteLocation">Delete a Location</string>
+    <string name="deleteLocationBtn">Delete Location</string>
+    <string name="hotelName">Hotel Name</string>
+    <string name="fillHotelName">Name of the hotel</string>
+    <string name="MsgAddHotel">Add a Hotel</string>
+    <string name="addHotelBtn">Add Hotel</string>
+    <string name="MsgUpdateHotel">Update a Hotel</string>
+    <string name="updateHotelBtn">Update Hotel</string>
+    <string name="MsgDeleteHotel">Delete a Hotel</string>
+    <string name="deleteHotelBtn">Delete Hotel</string>
+    <!--Amasha End -->
 </resources>

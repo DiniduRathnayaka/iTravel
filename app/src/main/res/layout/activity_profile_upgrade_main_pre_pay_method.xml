@@ -29,7 +29,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#9C878181">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar2"

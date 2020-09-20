@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background_dashboard"
-        app:layout_anchor="drawer_layout"
         app:layout_anchorGravity="center"
         tools:context="com.example.Home.dashboard">
 

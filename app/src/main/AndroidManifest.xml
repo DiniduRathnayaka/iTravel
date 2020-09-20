@@ -10,52 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.Feedback.MyFeedbacks"></activity>
-        <activity android:name="com.example.Feedback.UpdateFeedback" />
-        <activity android:name="com.example.Feedback.DeleteFeedback" />
-        <activity android:name="com.example.Feedback.AddFeedback" />
-        <activity android:name="com.example.profile_upgrade.PaymentDetailsUpdate" />
-        <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" />
-        <activity android:name=".RestaurentOffers.AddOffers">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity android:name=".RestaurentOffers.DeleteOffers">
-
-            <!--
-                <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-               <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>>
-            -->
-        </activity>
-        <activity
-            android:name="com.example.Home.dashboard"
-            android:theme="@style/AppTheme.NoActionBar">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity android:name=".RestaurentOffers.UpdateOffers">
-
-
-                <intent-filter>
+        <activity android:name="com.example.Feedback.UpdateFeedback" ></activity>
+        <activity android:name="com.example.Feedback.DeleteFeedback" ></activity>
+        <activity android:name="com.example.Feedback.AddFeedback" ></activity>
+        <activity android:name="com.example.profile_upgrade.PaymentDetailsUpdate" ></activity>
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main" ></activity>
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre" ></activity>
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_details" ></activity>
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_method" ></activity>
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_success" ></activity>
+        <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" ></activity>
+        <activity android:name=".RestaurentOffers.AddOffers"></activity>
+        <activity android:name=".RestaurentOffers.DeleteOffers"></activity>
+        <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".RestaurentOffers.Hotels">
-        <!--    <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>   -->
-        </activity>
+        <activity android:name=".RestaurentOffers.UpdateOffers"></activity>
+        <activity android:name=".RestaurentOffers.Hotels"></activity>
     </application>
 
 </manifest>

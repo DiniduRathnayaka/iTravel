@@ -18,19 +18,11 @@ public class profile_upgrade_main_pre extends AppCompatActivity {
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
     NavigationView navigationView;
-    Button button1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_upgrade_main_pre);
-        button1 = (Button) findViewById(R.id.upgrade_btn);
-        button1.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v) {
-                Intent i=new Intent(profile_upgrade_main_pre.this, profile_upgrade_main_pre_pay_method.class);
-                startActivity(i);
-            }
-        });
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

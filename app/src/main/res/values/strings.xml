@@ -15,6 +15,7 @@
     <string name="profile_title">Profile Upgrade</string>
     <string name="upgrde_btn">Upgrade</string>
     <!-- Tiran - End -->
+
     <!-- Dinidu Start-->
     <string name="app_name">iTravel</string>
     <string name="addoff">ADD OFFER</string>
@@ -76,6 +77,9 @@
     <string name="MorDet">More Details</string>
     <string name="app_name_lo">Locations</string>
     <string name="NL">Name of the Location</string>
+    <!--Dinindu End -->
+
+    <!--Buddhi Start -->
     <string name="Des">Description</string>
     <string name="VF">View Feedback</string>
     <string name="AF">Add a Feedback</string>
@@ -86,8 +90,7 @@
     <string name="MF">My Feedbacks</string>
     <string name="UF">Update Feedback</string>
     <string name="UFbtn">Update Feedback!</string>
-
-    <!--Dinindu End -->
+    <!--Buddhi End -->
 
 
     <!--Amasha Start -->
@@ -125,5 +128,14 @@
     <string name="hot1">Cafe the Seoul</string>
     <string name="hot2">Cafe Nori</string>
     <string name="hot3">Pizza Hut</string>
+    <string name="btnAdd">ADD</string>
+    <string name="btnShow">SHOW</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="hintLocationName">Name of the Location</string>
+    <string name="hintCountry">Name of the Country</string>
+    <string name="hintDescription">Description</string>
+    <string name="hintLink">Link of the Location</string>
+    <string name="hintHotelName">Name of the Hotel</string>
     <!--Amasha End -->
 </resources>

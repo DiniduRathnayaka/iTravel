@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.itravel">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,27 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.Feedback.MyFeedbacks"></activity>
-        <activity android:name="com.example.Feedback.UpdateFeedback" ></activity>
-        <activity android:name="com.example.Feedback.DeleteFeedback" ></activity>
-        <activity android:name="com.example.Feedback.AddFeedback" ></activity>
-        <activity android:name="com.example.profile_upgrade.PaymentDetailsUpdate" ></activity>
-        <activity android:name="com.example.profile_upgrade.profile_upgrade_main" ></activity>
-        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre" ></activity>
-        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_details" ></activity>
-        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_method" ></activity>
-        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_success" ></activity>
-        <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" ></activity>
-        <activity android:name=".RestaurentOffers.AddOffers"></activity>
-        <activity android:name=".RestaurentOffers.DeleteOffers"></activity>
-        <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".HotelViews" />
+        <activity android:name=".LocationsDelete" />
+        <activity android:name=".LocationsAdd" />
+        <activity android:name=".HotelsAdd" />
+        <activity android:name=".LocationsUpdate" />
+        <activity android:name=".HotelsDelete" />
+        <activity android:name=".HotelsUpdate" />
+        <activity
+            android:name=".LocationsView"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RestaurentOffers.UpdateOffers"></activity>
-        <activity android:name=".RestaurentOffers.Hotels"></activity>
     </application>
 
 </manifest>

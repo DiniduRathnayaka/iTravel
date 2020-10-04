@@ -32,7 +32,7 @@
         android:layout_height="match_parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/cardCVV"
             android:layout_width="71dp"
             android:layout_height="42dp"
             android:ems="10"
@@ -45,7 +45,7 @@
             app:layout_constraintVertical_bias="0.732" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/next2"
             android:layout_width="52dp"
             android:layout_height="49dp"
             android:background="#27C802"
@@ -254,7 +254,7 @@
             app:layout_constraintVertical_bias="0.729" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/nameOnCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -266,7 +266,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/cardNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -279,7 +279,7 @@
             app:layout_constraintVertical_bias="0.573" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/expMonth"
             android:layout_width="71dp"
             android:layout_height="42dp"
             android:ems="10"
@@ -292,7 +292,7 @@
             app:layout_constraintVertical_bias="0.669" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/expYear"
             android:layout_width="71dp"
             android:layout_height="42dp"
             android:ems="10"

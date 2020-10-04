@@ -176,6 +176,7 @@
             app:layout_constraintVertical_bias="0.433" />
 
         <RadioGroup
+            android:id="@+id/payMethod"
             android:layout_width="223dp"
             android:layout_height="182dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -186,7 +187,7 @@
             app:layout_constraintVertical_bias="0.641">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton1"
                 android:layout_width="227dp"
                 android:layout_height="48dp"
                 android:text="VISA"
@@ -263,7 +264,7 @@
             app:srcCompat="@drawable/paypal" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/next1"
             android:layout_width="52dp"
             android:layout_height="49dp"
             android:background="#27C802"

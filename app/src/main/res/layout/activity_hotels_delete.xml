@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background_dashboard"
+tools:context=".HotelsDelete">
+
+<TextView
+    android:id="@+id/updateLocation3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/MsgDeleteHotel"
+    android:textAlignment="center"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    android:textColor="@android:color/background_light"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.028" />
+
+<ImageView
+    android:id="@+id/imageUpdate3"
+    android:layout_width="110dp"
+    android:layout_height="101dp"
+    android:background="#F8F4F4"
+    android:contentDescription="@string/newImage"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.073"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.151"
+    app:srcCompat="@drawable/ic_baseline_local_cafe_24"
+    tools:ignore="VectorDrawableCompat" />
+
+<Button
+    android:id="@+id/imageUploadUpdate3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/imageUploadBtn"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.734"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.156"
+    tools:ignore="MissingConstraints" />
+
+<EditText
+    android:id="@+id/fillLocationNameUpdate3"
+    android:layout_width="215dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/fillHotelName"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.948"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.377" />
+
+<EditText
+    android:id="@+id/locationNameUpdate3"
+    android:layout_width="138dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/hotelName"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.076"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.377" />
+
+<EditText
+    android:id="@+id/countryUpdate3"
+    android:layout_width="138dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/country"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.076"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/fillCountryUpdate3"
+    android:layout_width="215dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/fillCountry"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.948"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/fillDescriptionUpdate3"
+    android:layout_width="208dp"
+    android:layout_height="75dp"
+    android:ems="10"
+    android:gravity="start|top"
+    android:inputType="textMultiLine"
+    android:text="@string/fillDescription"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.926"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.649" />
+
+<EditText
+    android:id="@+id/descriptionUpdate3"
+    android:layout_width="138dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/description"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.076"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.62" />
+
+<EditText
+    android:id="@+id/locationLinkUpdate3"
+    android:layout_width="138dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/locationLink"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.076"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.788" />
+
+<EditText
+    android:id="@+id/fillLocationLinkUpdate3"
+    android:layout_width="215dp"
+    android:layout_height="49dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="@string/fillLocationLink"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.948"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.787" />
+
+<Button
+    android:id="@+id/updateLocationBtn3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/deleteHotelBtn"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.873" />
+
+<ImageButton
+    android:id="@+id/search_view_btn6"
+    android:layout_width="61dp"
+    android:layout_height="59dp"
+    android:background="#00FFFFFF"
+    android:tint="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.094"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.968"
+    app:srcCompat="@drawable/ic_baseline_language_24"
+    tools:ignore="VectorDrawableCompat" />
+
+<ImageButton
+    android:id="@+id/explorer_view_btn6"
+    android:layout_width="61dp"
+    android:layout_height="59dp"
+    android:background="#00FFFFFF"
+    android:tint="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.308"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.97"
+    app:srcCompat="@drawable/ic_baseline_explore_24"
+    tools:ignore="VectorDrawableCompat" />
+
+<ImageButton
+    android:id="@+id/favourite_btn6"
+    android:layout_width="61dp"
+    android:layout_height="59dp"
+    android:layout_marginEnd="164dp"
+    android:background="#00FFFFFF"
+    android:tint="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.525"
+    app:layout_constraintStart_toStartOf="@+id/toolbar2"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.97"
+    app:srcCompat="@drawable/ic_baseline_favorite_24"
+    tools:ignore="VectorDrawableCompat" />
+
+<ImageButton
+    android:id="@+id/feedback_btn5"
+    android:layout_width="61dp"
+    android:layout_height="59dp"
+    android:background="#00FFFFFF"
+    android:tint="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.751"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.97"
+    app:srcCompat="@drawable/ic_baseline_message_24"
+    tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+<ImageButton
+    android:id="@+id/profile_btn5"
+    android:layout_width="61dp"
+    android:layout_height="60dp"
+    android:background="#00FFFFFF"
+    android:tint="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.974"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.968"
+    app:srcCompat="@drawable/ic_baseline_account_circle_24"
+    tools:ignore="MissingConstraints,VectorDrawableCompat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
